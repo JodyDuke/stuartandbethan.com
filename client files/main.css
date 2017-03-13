@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'sanford';
+  src: url('fonts/Sanford.ttf');
+}
+
+@font-face {
+  font-family: 'precious';
+  src: url('fonts/Precious.ttf');
+}
+
+@font-face {
+  font-family: 'aracne';
+  src: url('fonts/aracne_light_cond.otf');
+}
+
+@font-face {
+  font-family: 'josefin';
+  src: url('fonts/josefin-slab/JosefinSlab-Light.ttf');
+}
+
+@font-face {
+  font-family: 'hanken';
+  src: url('fonts/Hanken-Light.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'precious';
+  font-size: 6em;
+  letter-spacing: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 1.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-family: 'sanford';
+  letter-spacing: 10px;
+  font-size: 2.3em;
+  line-height: 1.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h3 {
+  font-family: 'hanken';
+  font-size: 1.3em;
+  line-height: 1.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+h4 {
+  font-family: 'sanford';
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-family: 'sanford';
+  letter-spacing: 1px;
+}
+
+.top-margin {
+  margin-top: 1em;
+}
+
+/*Navigation*/ 
+
+.navbar {
+  background: white;
+  border: none;
+  font-family: 'sanford';
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: black;
+  background-color: white;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+.break {
+  margin-top: 3em;
+}
+
+.full {
+  background: url('images/cover_2_optimised.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+p {
+  font-family: 'hanken';
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.venue p {
+  margin-top: 1em;
+}
+
+#map {
+  margin: 1em auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+}
+
+.wedding-info {
+  text-align: center;
+}
+
+.wedding-info p {
+  font-family: "sanford";
+}
+
+.gmnoprint a, .gmnoprint span {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
+
+.breaking-line {
+  margin-top: 1em;
+  display: inline-block;
+  width: 60%;
+  border-bottom: 3px #B0DCA3 solid;
+}
+
+.party {
+  margin: 1.5em auto 0em;
+  width: 40%;
+}
+
+.accom {
+  margin: 1.5em auto 0em;
+  width: 72%;
+  border-radius: 10px;
+}
+
+.drawing {
+  border-radius: 20px;
+}
+
+ul li {
+    font-family: 'hanken';
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
